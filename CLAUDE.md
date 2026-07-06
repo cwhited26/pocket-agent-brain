@@ -119,14 +119,28 @@ How you want agents to behave when they read this file.
 
 ---
 
-## 9. Cross-references
+## 9. The five zones (what Pocket Agent reads for RAG)
+
+This brain is organized into five top-level zones. Every agent scoped to draft or answer questions loads the zones relevant to the task. Zone-scoped retrieval keeps context tight and gives you (the operator) control over what a given Persona is allowed to see.
+
+| Zone | Answers | Read for |
+| :--- | :--- | :--- |
+| `voice/` | How you talk | Any external copy — emails, drips, landing pages, video scripts |
+| `customers/` | Who buys from you | Any customer-facing message, any segment-targeted campaign |
+| `products/` | What you sell | Quotes, scope, pricing, feature claims |
+| `competitive/` | Who else they compare you to | Positioning, sales-call rebuttals, comparison content |
+| `decisions/` | The calls you've made, the rules you don't break | EVERY task — `decisions/standing-rules.md` is a hard read before drafting |
+
+Each zone has its own README explaining what belongs there and the shape of the files inside. Read those five READMEs and you know what the brain knows.
+
+## 10. Cross-references
 
 - `AGENTS.md` — cross-agent role rules and handoff protocol
 - `MEMORY.md` — append-only fact ledger (the standing facts)
 - `Daily_Log.md` — append-only timeline of what was done
-- `Decision_Log.md` — decisions with rationale and alternatives considered
+- `Decision_Log.md` (root) — legacy quick-log. Canonical structured log lives at `decisions/decision-log.md`.
 - `Change_Log.md` — commit-style ledger across all repos
-- `Feature_Inventory.md` — feature status (full / partial / planned)
+- `Feature_Inventory.md` (root) — legacy. Canonical feature registry lives at `products/example-feature-inventory.md`.
 - `bin/` — operating scripts (lane-summary, stale-audit)
 - `memory-conventions/` — ready-to-paste brain conventions
 
