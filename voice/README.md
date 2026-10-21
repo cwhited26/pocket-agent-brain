@@ -39,7 +39,7 @@ Outside these three, the spec is the floor.
 
 ## Getting started
 
-The `voice-spec.md` file ships pre-filled with Chase Whited's actual voice spec — the one running Pocket Agent, Buildout Studios, and Tennessee Valley Exteriors right now. It's a working example, not a scaffold. Read it end-to-end. Then edit it to be **yours**. Every mention of "Chase," "Patrick," a specific product or a specific customer is a placeholder for your own reality. Keep the structure and the calibration cues (§10) — those are the point.
+The `voice-spec.md` file ships pre-filled with a sample owner's voice spec (Alex Morgan, fictional) — a fictional owner running three small businesses. It's a working example, not a scaffold. Read it end-to-end. Then edit it to be **yours**. Every mention of "Alex," "Dana," a specific product or a specific customer is a placeholder for your own reality. Keep the structure and the calibration cues (§10) — those are the point.
 
 ## Updating
 

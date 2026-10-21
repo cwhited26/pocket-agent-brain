@@ -2,7 +2,7 @@
 
 Five folders. One repo. Everything your Pocket Agent knows about your business.
 
-This is the template every Pocket Agent user starts with. It ships pre-filled with a real, working example — the shape of the brain running three real businesses (Whited Consulting, AthleteOS, Tennessee Valley Exteriors) right now — so you have something to model on, not a Lorem-ipsum scaffold.
+This is the template every Pocket Agent user starts with. It ships pre-filled with a real, working example — the shape of the brain running three sample businesses (fictional) (Northfield Consulting, CoachHub, Valley Exteriors Co.) right now — so you have something to model on, not a Lorem-ipsum scaffold.
 
 Fork it. Edit it to be yours. Connect Pocket Agent to it. Your agent starts drafting in your voice, quoting your prices, knowing your customers, defending your positioning — from turn one.
 
@@ -42,7 +42,7 @@ Two paths:
 
 **During the workshop.** You bring the workbook (`pocketagent.com/workshop/workbook.pdf`), fill in the blanks live, then walk through the five zones with Pocket Agent — it reads your answers back into these folders as you go.
 
-**On your own.** Read the five zone READMEs. Delete the example files. Write your own using the shape they demonstrated. Or edit the examples in place — every "Chase," "Patrick," "APA," "BOS," "TVE," or specific product is a placeholder for your own reality.
+**On your own.** Read the five zone READMEs. Delete the example files. Write your own using the shape they demonstrated. Or edit the examples in place — every "Alex," "Dana," "APA," "BWS," "VXC," or specific product is a placeholder for your own reality.
 
 Both paths work. Both end with your agent reading a brain that knows your business.
 
@@ -97,4 +97,4 @@ Visit [pocketagent.com](https://pocketagent.com) or reach out via your Pocket Ag
 
 ---
 
-*Business Brain template — Pocket Agent × Buildout Studios × 2026.*
+*Business Brain template — Pocket Agent × Brightwork Studio × 2026.*
