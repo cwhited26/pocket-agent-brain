@@ -8,24 +8,24 @@
 
 ## On-brand (Chase)
 
-> Build out the `voice/` infrastructure in whited-brain as a first-class brain surface. Layer 1 only — consolidated voice spec for Chase + transcript intake + examples + CLAUDE.md wiring. Personas (Layer 2) and influences library (Layer 3) are deliberately out of scope.
+> Build out the `voice/` infrastructure in your brain repo as a first-class brain surface. Layer 1 only — consolidated voice spec for Chase + transcript intake + examples + CLAUDE.md wiring. Personas (Layer 2) and influences library (Layer 3) are deliberately out of scope.
 >
-> **Goal:** every agent working in any whited-brain-anchored repo (whited-brain itself, Patrick's FPHI build, AOS, BOS website, APA, wc-admin, aipocketagency-website) auto-loads Chase's voice spec when drafting any copy — emails, drips, Skool posts, landing pages, video scripts, sales assets — and produces output that sounds like Chase the first time, not after 3 rounds of correction.
+> **Goal:** every agent working in any brain-anchored repo auto-loads Chase's voice spec when drafting any copy — emails, drips, Skool posts, landing pages, video scripts, sales assets — and produces output that sounds like Chase the first time, not after 3 rounds of correction.
 >
 > **Standing rules (read first):**
-> - `/Users/chasewhited/whited-brain/CLAUDE.md` for full project rules
-> - All memory files under `/Users/chasewhited/Library/Application Support/Claude/local-agent-mode-sessions/.../memory/` for behavior conventions
+> - `~/your-brain/CLAUDE.md` for full project rules
+> - All memory files under `~/your-brain/memory/` for behavior conventions
 >
 > ---
 >
 > ## Phase 1 — Audit existing voice signals
 >
-> Grep through whited-brain and the agent memory directory for everything that's already implicit voice spec. Specific files and patterns to mine:
+> Grep through your brain repo and the agent memory directory for everything that's already implicit voice spec. Specific files and patterns to mine:
 > [...]
 >
 > ## Phase 5 — Wire into CLAUDE.md
 >
-> Edit `/Users/chasewhited/whited-brain/CLAUDE.md`:
+> Edit `~/your-brain/CLAUDE.md`:
 >
 > 1. Add to **Section 12 Behavior Rules** a new rule (probably #10 or #11): "When drafting any customer-facing or external copy, load `voice/voice-spec.md` first..."
 >
@@ -63,7 +63,7 @@
 - **Verb-first directive.** "Build out the `voice/` infrastructure…" — the verb is the first word. The agent knows the action before it knows anything else.
 - **Concrete scope locked early.** "Layer 1 only — consolidated voice spec for Chase + transcript intake + examples + CLAUDE.md wiring. Personas (Layer 2) and influences library (Layer 3) are deliberately out of scope." Three named layers, scope of this prompt locked to one. No drift.
 - **Goal stated in operator terms.** "Sounds like Chase the first time, not after 3 rounds of correction." The success metric is observable and binary, not a feeling.
-- **Standing rules linked by path.** `/Users/chasewhited/whited-brain/CLAUDE.md` — paste the path, not "the project rules". The agent doesn't have to guess what `CLAUDE.md` means in context.
+- **Standing rules linked by path.** `~/your-brain/CLAUDE.md` — paste the path, not "the project rules". The agent doesn't have to guess what `CLAUDE.md` means in context.
 - **Phased structure with explicit deliverables.** Each phase has a clear output (audit doc, spec doc, examples, CLAUDE.md edits, memory file). The agent grades its own paper against the phase list.
 - **Honest-gaps clause at the end.** "Be ruthlessly honest — if you had to invent a section because the audit didn't surface enough data, flag it so Chase can fill it in." Explicit permission to admit limits. This is the anti-hallucination instruction.
 - **Closing report format named.** Eight enumerated items the agent must surface when done. The orchestrator can verify each one independently. No "let me know if you have any questions before getting started" — that's reverse delegation.
