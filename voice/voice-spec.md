@@ -1,7 +1,7 @@
 # Your Voice Spec
 
 **Status:** Working example — replace it with your own.
-**About this file:** This ships pre-filled with Chase Whited's actual voice spec — the one running his three businesses right now (Whited Consulting, AthleteOS, Tennessee Valley Exteriors). It's here so you have a **real, working example** of what a mature voice spec looks like at every section — not a Lorem-ipsum scaffold. Read it once end-to-end. Then edit it to be yours: your fingerprint, your vocab, your patterns, your examples. Every mention of "Chase," "Patrick," "APA," "BOS," "TVE," "AOS," "Dispatch," or any specific product is a placeholder for your own reality. Keep the structure and the calibration cues (§10) — those are the point.
+**About this file:** This ships pre-filled with Chase Whited's actual voice spec — the one running his three businesses right now (Whited Consulting, AthleteOS, Tennessee Valley Exteriors). It's here so you have a **real, working example** of what a mature voice spec looks like at every section — not a Lorem-ipsum scaffold. Read it once end-to-end. Then edit it to be yours: your fingerprint, your vocab, your patterns, your examples. Every mention of "Chase," "Dana," "APA," "BOS," "TVE," "AOS," "Dispatch," or any specific product is a placeholder for your own reality. Keep the structure and the calibration cues (§10) — those are the point.
 
 ## How to use this doc
 
@@ -94,7 +94,7 @@ Per the system tone rule, these three never appear in agent output without expli
 Personal but credible. Admits the same fear the reader has. Doesn't apologize for the fear.
 
 ### Specific over generic
-> "Patrick paid $3,500 + monthly hosting." (Not: "I help contractors run real businesses.")
+> "Dana signed the 12-month plan on the 3rd." (Not: "I help contractors run real businesses.")
 
 If a number, a name, a date, or a dollar amount exists, use it. If it doesn't exist, say "I don't have the number yet" — don't hedge with "many" or "several".
 
@@ -156,10 +156,10 @@ Closes a decision without time-shifting it. The reader picks now. No "let me kno
 
 ## 6. Structural patterns by content type
 
-### Customer email (Patrick, future clients, prospects)
+### Customer email (Dana, future clients, prospects)
 **Pattern (extracted from user-described "Last setup push" structure + `Discovery_Call_Followup_Flow.md` framing):**
 
-1. **One-line greet.** No "I hope this finds you well." First-name only. ("Hey Patrick —" or "Patrick —")
+1. **One-line greet.** No "I hope this finds you well." First-name only. ("Hey Dana —" or "Dana —")
 2. **Frame the ask in one sentence.** What this email exists to do.
 3. **Solo list.** Things Chase needs the client to do alone, with concrete next steps.
 4. **Joint list.** Things Chase and the client will do together (when, where).
@@ -171,8 +171,8 @@ Hard rules from `feedback_client_copy_isolation.md`: only reference what the cli
 ### Internal context to agents (lane prompts, brain handoffs, task briefs)
 **Pattern (extracted from agent-memory feedback + recent Chase-written lane prompts):**
 
-1. **Verb-first directive.** "Build out the voice/ infrastructure…" "Audit existing voice signals…" "Ship the Patrick onboarding email through Resend."
-2. **Specific files, paths, SHAs.** "`/Users/chasewhited/whited-brain/CLAUDE.md` for full project rules" — paste the path, don't describe it.
+1. **Verb-first directive.** "Build out the voice/ infrastructure…" "Audit existing voice signals…" "Ship the Dana onboarding email through Resend."
+2. **Specific files, paths, SHAs.** "`~/your-brain/CLAUDE.md` for full project rules" — paste the path, don't describe it.
 3. **Expected verification.** What "done" looks like. Three commands the agent should run to grade its own paper.
 4. **Standing rules, link by reference.** "Per `feedback_no_time_estimates.md`" — don't restate the rule; link to it.
 5. **The Honest gaps clause.** "Be ruthlessly honest — if you had to invent a section because the audit didn't surface enough data, flag it."
@@ -248,9 +248,9 @@ Each example below has a single diagnostic line explaining why the on-brand vers
 
 ### Example A — Cold email (client follow-up)
 
-**On-brand (Chase pattern, reconstructed from the user-described "Last setup push" Patrick email):**
+**On-brand (Chase pattern, reconstructed from the user-described "Last setup push" Dana email):**
 
-> Patrick —
+> Dana —
 >
 > Last setup push before we hand the keys over. Two lists below — yours and ours — and three things parked with the reason.
 >
@@ -273,7 +273,7 @@ Each example below has a single diagnostic line explaining why the on-brand vers
 
 **Off-brand (generic AI):**
 
-> Hi Patrick,
+> Hi Dana,
 >
 > I hope this email finds you well! I wanted to circle back regarding the last few items we discussed during our recent conversations. As we move forward toward the final handoff, I've put together a comprehensive overview of the remaining action items to ensure we're aligned.
 >
@@ -294,12 +294,12 @@ Each example below has a single diagnostic line explaining why the on-brand vers
 
 **On-brand (Chase pattern, reconstructed from user-described lane-prompt format):**
 
-> Build out the `voice/` infrastructure in whited-brain as a first-class brain surface. Layer 1 only — consolidated voice spec for Chase + transcript intake + examples + CLAUDE.md wiring.
+> Build out the `voice/` infrastructure in your brain repo as a first-class brain surface. Layer 1 only — consolidated voice spec for Chase + transcript intake + examples + CLAUDE.md wiring.
 >
-> **Goal:** every agent working in any whited-brain-anchored repo auto-loads Chase's voice spec when drafting any copy — emails, drips, Skool posts, landing pages, video scripts — and produces output that sounds like Chase the first time, not after 3 rounds of correction.
+> **Goal:** every agent working in any brain-anchored repo auto-loads Chase's voice spec when drafting any copy — emails, drips, Skool posts, landing pages, video scripts — and produces output that sounds like Chase the first time, not after 3 rounds of correction.
 >
 > Standing rules (read first):
-> - `/Users/chasewhited/whited-brain/CLAUDE.md` for full project rules
+> - `~/your-brain/CLAUDE.md` for full project rules
 > - All `feedback_*.md` memory files for behavior conventions
 >
 > [phase-by-phase scope]
@@ -418,7 +418,7 @@ Per Content Strategy §2 (Audience map), the four sub-brands target distinct aud
 | Audience | Register tuning |
 | :--- | :--- |
 | **APA** (operators, builders, AI-curious entrepreneurs) | Default voice. Build vocabulary, named patterns ("lane", "worktree", "standing rule"), code-fenced commands acceptable inline. |
-| **BOS** (contractors, agency owners, small operators) | Default voice. Drop the agent-orchestration vocabulary unless the audience asked for it. Lean on outcomes ("Patrick paid $3,500 + monthly hosting"). Use "your business runs on this" framing. |
+| **BOS** (contractors, agency owners, small operators) | Default voice. Drop the agent-orchestration vocabulary unless the audience asked for it. Lean on outcomes ("Dana signed the 12-month plan on the 3rd"). Use "your business runs on this" framing. |
 | **AOS** (parents of youth athletes, coaches, sports orgs) | Default voice softened slightly — fewer named concepts, more concrete moments ("Sarah's senior signing day"). Keep the no-fluff bar. AOS does not borrow APA's named vocabulary. |
 | **TVE** (East-TN homeowners) | Default voice trimmed further — short sentences, local-trust register, no agent / brain / orchestration words. Pure "honest contractor showing up on time" tone. |
 
@@ -447,7 +447,7 @@ Read your draft. For each cue below, answer yes/no. Any "no" → rewrite that se
 
 This spec is the default. Three explicit override cases:
 
-1. **Client-voice override.** If the work is in a client's voice (Patrick writing to his customers, an AOS coach writing to parents, a TVE inspector writing a damage assessment), the persona spec governs — not Chase's voice. Layer 2 (`voice/personas/`) is not yet built; until it is, the work uses the client's known voice patterns from artifacts in the brain (e.g., `BOS/Products/Patrick/Patrick_Snippets_Library.md` for Patrick's inspector voice).
+1. **Client-voice override.** If the work is in a client's voice (a client writing to their customers, an AOS coach writing to parents, a TVE inspector writing a damage assessment), the persona spec governs — not Chase's voice. Layer 2 (`voice/personas/`) is not yet built; until it is, the work uses the client's known voice patterns from artifacts in the brain (e.g., `customers/<client>/snippets-library.md` for the client's voice).
 
 2. **Domain-precision override.** If the work is a technical spec, ADR, or migration plan, voice tunes toward precision over rhythm. Sentences run longer. Vocabulary is technical (no plain-language softening). The voice spec still rules out banned phrases — it just doesn't enforce the "felt-experience anchor" cue.
 
