@@ -66,7 +66,7 @@ brain --help              # full reference
 
 Configuration: `.brain-config.json` at the brain root controls capture toggle, project name, redaction patterns, and per-project client-name patterns. The Stop hook (Layer A) and pre-commit hook (Layer B) read the same config — edit once.
 
-**Architectural rationale:** `Ambient_Brain_Architecture.md` (in the parent `whited-brain` repo) — covers the 12 decisions, 5 failure modes, retention policy, and Module 6 curriculum.
+**Architectural rationale:** `Ambient_Brain_Architecture.md` (in your own brain repo) — covers the 12 decisions, 5 failure modes, retention policy, and Module 6 curriculum.
 
 **Run cadence:**
 - `brain status` — whenever; cheap and stateless.

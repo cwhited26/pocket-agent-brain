@@ -1,7 +1,7 @@
 # voice/audit.md — Voice signal audit
 
 **Status:** Working example — replace with your own.
-**About this file:** This ships pre-filled with the source audit behind Chase Whited's voice spec (see `voice-spec.md`). It's here as a **working example** of what a real audit looks like — sources cited, signal strength graded, gaps flagged honestly. Read it once. Then replace it with your own audit as you build your voice spec: which artifacts of yours are the strongest signal (voice memos, sales calls, past emails, published writing), which sections of the spec extrapolate beyond them, which gaps you know are open.
+**About this file:** This ships pre-filled with the source audit behind Alex Morgan's voice spec (see `voice-spec.md`). It's here as a **working example** of what a real audit looks like — sources cited, signal strength graded, gaps flagged honestly. Read it once. Then replace it with your own audit as you build your voice spec: which artifacts of yours are the strongest signal (voice memos, sales calls, past emails, published writing), which sections of the spec extrapolate beyond them, which gaps you know are open.
 
 The rule: if a line in your voice spec doesn't trace back to a source in this file, it's an assumption, not a rule. Spec authors update the spec; they do not rewrite this audit. Add new sources to §A or §C as they land.
 
@@ -11,7 +11,7 @@ The rule: if a line in your voice spec doesn't trace back to a source in this fi
 
 | Source | Path | Voice signal strength |
 | :--- | :--- | :--- |
-| Master content rules | `Whited_Consulting_Content_Strategy.md` §1 | **HIGHEST — Chase's own meta-rules** |
+| Master content rules | `Whited_Consulting_Content_Strategy.md` §1 | **HIGHEST — Alex's own meta-rules** |
 | Long-form locked sample | `APA/Products/Dispatch_Playbook_Draft.md` §1–11 | **HIGHEST — first-person locked voice target** |
 | Locked product copy | `Skool_Launch_Plan.md` §6 (Sales page copy lock) | **HIGHEST — compressed voice** |
 | Recorded narration scripts | `Skool_Module_1_Scripts.md` | HIGHEST — conversational teaching |
@@ -24,7 +24,7 @@ The rule: if a line in your voice spec doesn't trace back to a source in this fi
 | Standing rule (agent memory) | `feedback_manual_step_by_step.md` | Low — UX not prose |
 | Brand context | `Whited_Consulting_Brand_Architecture.md` | Medium — sub-brand positioning |
 | Brand context | `MEMORY.md` (brain root) | Medium — APA-7..14 locks, monospace-pill convention |
-| Client domain capture (parallel) | `BOS/Products/Patrick/Patrick_Snippets_Library.md` | Medium — shows the caliber of specificity Chase respects, not Chase's voice |
+| Client domain capture (parallel) | `BWS/Products/Dana/Dana_Snippets_Library.md` | Medium — shows the caliber of specificity Alex respects, not Alex's voice |
 
 ---
 
@@ -44,19 +44,19 @@ The rule: if a line in your voice spec doesn't trace back to a source in this fi
 
 ---
 
-## B. Direct quotes — Chase's own voice rule
+## B. Direct quotes — Alex's own voice rule
 
 From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 
-> **Operator voice.** Chase is an operator who learned to build software because the work demanded it — not a guru, not a coach, not a "tech founder." Every piece of public content reads like advice you'd give a friend at a coffee table.
+> **Operator voice.** Alex is an operator who learned to build software because the work demanded it — not a guru, not a coach, not a "tech founder." Every piece of public content reads like advice you'd give a friend at a coffee table.
 
-> Specific over abstract. "Patrick paid $3,500 + monthly hosting" beats "I help contractors run real businesses."
+> Specific over abstract. "Dana signed the 12-month plan on the 3rd" beats "I help contractors run real businesses."
 
 > Real numbers, real names, real outcomes. If it can't be sourced to a SHA, a commit, a customer, or a date — it doesn't go in the post.
 
 > Short over long when long doesn't earn it. A 60-word X post beats a 600-word LinkedIn humblebrag.
 
-> If a draft starts to drift, run the rewrite test: would Chase actually say this sentence out loud to a friend? If no, kill it.
+> If a draft starts to drift, run the rewrite test: would Alex actually say this sentence out loud to a friend? If no, kill it.
 
 ---
 
@@ -96,12 +96,12 @@ From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 > **Anti-guru section:**
 > Tired of $47 AI courses that teach you how to ask Claude better questions? So am I. This isn't a course. It isn't a prompt pack. It's the actual system — the AI brain — that I run my own businesses on. You get the structure, the conventions, the workflows, and the live builds. Platform-agnostic. Model-agnostic. If the agent landscape shifts tomorrow, your AI brain still works.
 
-### C6 — Strategy doc opening (BOS)
+### C6 — Strategy doc opening (BWS)
 **`Discovery_Call_Followup_Flow.md` lines 5–7**
 
 > ## The pitch
 >
-> Most agencies follow up a discovery call with a template proposal or email recap. Chase sends a 60-90 sec personalized video — narrated in his cloned voice, showing a walkthrough tailored to that prospect's situation — by morning. No competitor in BOS's space is doing this. Differentiator that compounds across every call.
+> Most agencies follow up a discovery call with a template proposal or email recap. Alex sends a 60-90 sec personalized video — narrated in his cloned voice, showing a walkthrough tailored to that prospect's situation — by morning. No competitor in BWS's space is doing this. Differentiator that compounds across every call.
 
 ### C7 — Verification-discipline ending (the anti-hype close)
 **`APA/Products/Dispatch_Playbook_Draft.md` line 401**
@@ -124,13 +124,13 @@ From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 
 6. **Anti-hype ending / reality check.** Module 1 close: "There is no SaaS to log into. There is no dashboard. The repo on disk is the entire product." Dispatch close: "Confidence here is hands-on, not theoretical." No padded summary. No "in conclusion."
 
-7. **Em-dash for asides + named-thing emphasis.** "the context fills up — and it always fills up — you start over." Used for parenthetical clarification or rhythm, not as decoration. System tone rule says "avoid overusing em dashes" — Chase uses them but the rate is calibrated, ~1–2 per paragraph max.
+7. **Em-dash for asides + named-thing emphasis.** "the context fills up — and it always fills up — you start over." Used for parenthetical clarification or rhythm, not as decoration. System tone rule says "avoid overusing em dashes" — Alex uses them but the rate is calibrated, ~1–2 per paragraph max.
 
 8. **Bold sparingly, for turning-point concepts.** "**That's the wall.**" "**That's the difference between babysitting and orchestrating.**" Not decorative. Each bold anchors a mental model.
 
 9. **First-person without ego.** "I had it too. The first time I ran four lanes I sat there refreshing GitHub like a maniac." Personal but credible — admitting the same fear the reader has.
 
-10. **Concrete numbers, anonymized only when necessary.** "About three hours of back-and-forth" — specific. "Four lanes reported back inside an hour" — specific. When sanitizing for public, follow Content Strategy §9: "a roofing client" not "Patrick / FPHI" unless permission given.
+10. **Concrete numbers, anonymized only when necessary.** "About three hours of back-and-forth" — specific. "Four lanes reported back inside an hour" — specific. When sanitizing for public, follow Content Strategy §9: "a roofing client" not "Dana / Ridgeline Roofing" unless permission given.
 
 ---
 
@@ -142,7 +142,7 @@ From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 | **babysitting vs orchestrating** | Core orchestration metaphor | "That's the difference between babysitting and orchestrating." |
 | **shipped / shipping** | Proof. Past tense, verified. | "We don't tell people what's possible — we show what we shipped." |
 | **real numbers / real names / real outcomes / real receipts** | Anti-hype specificity bar | "If it can't be sourced to a SHA, a commit, a customer, or a date…" |
-| **specific over abstract / concrete** | Compression bar | "Specific over abstract. 'Patrick paid $3,500 + monthly hosting'…" |
+| **specific over abstract / concrete** | Compression bar | "Specific over abstract. 'Dana signed the 12-month plan on the 3rd'…" |
 | **the work** | Neutral, grounded effort | "The work moves to the front (the prompt) and the back (the verify)." |
 | **running** (businesses) | Operational stance | "the system I use to run real software businesses from anywhere" |
 | **in practice** | Bridge from rule to reality | "What that means in practice: [specific list]" |
@@ -156,15 +156,15 @@ From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 
 ---
 
-## F. Anti-pattern words / phrases (absent from Chase's writing)
+## F. Anti-pattern words / phrases (absent from Alex's writing)
 
 - "Excited", "amazing", "awesome" — never as a generic intensifier.
-- "Genuinely", "honestly", "straightforward" — banned as filler modifiers per system tone rule (Chase does say "honest" when it precedes a candid statement, e.g. "the honest answer is" — that's not the banned pattern).
-- "Probably", "likely", "might want to consider" — hedge language. When Chase qualifies, he says "in practice" or "usually" — not modal hedges.
+- "Genuinely", "honestly", "straightforward" — banned as filler modifiers per system tone rule (Alex does say "honest" when it precedes a candid statement, e.g. "the honest answer is" — that's not the banned pattern).
+- "Probably", "likely", "might want to consider" — hedge language. When Alex qualifies, he says "in practice" or "usually" — not modal hedges.
 - "Help you", "empower you", "unlock your potential" — hollow benefit speak.
 - "Revolutionary", "game-changing", "next-level" — marketing fluff.
 - "Best practice", "industry-leading", "world-class" — corporate-deck noise.
-- "Circle back", "synergy", "leverage" (as a verb) — corporate-speak. Chase says "use", "fold in", "tie together".
+- "Circle back", "synergy", "leverage" (as a verb) — corporate-speak. Alex says "use", "fold in", "tie together".
 - "I hope this finds you well", "moving forward" — email padding. Never appears.
 
 ---
@@ -173,15 +173,15 @@ From `Whited_Consulting_Content_Strategy.md` §1 (verbatim):
 
 Flagged so future spec readers know what's grounded vs what's been extrapolated.
 
-1. **Customer email tone (warm-context).** Strong samples for sales-page / playbook / strategy-doc voice. No verbatim Chase-written cold or follow-up email captured in the brain. Patrick correspondence references exist (`Patrick_Daily_Log.md` mentions message IDs) but the actual email bodies aren't versioned in the brain repo. **Implication:** the cold-email example pulls from the closest analogues (Discovery_Call_Followup_Flow framing + Content Strategy §1 voice rule) and the user prompt's reference to a "Last setup push" Gmail draft v3. The example is plausible but not a verbatim Chase artifact.
+1. **Customer email tone (warm-context).** Strong samples for sales-page / playbook / strategy-doc voice. No verbatim Alex-written cold or follow-up email captured in the brain. Dana correspondence references exist (`Dana_Daily_Log.md` mentions message IDs) but the actual email bodies aren't versioned in the brain repo. **Implication:** the cold-email example pulls from the closest analogues (Discovery_Call_Followup_Flow framing + Content Strategy §1 voice rule) and the user prompt's reference to a "Last setup push" Gmail draft v3. The example is plausible but not a verbatim Alex artifact.
 
-2. **Real-time chat / Slack register.** No captured Slack threads or live-chat samples. The agent-memory feedback corrections (e.g. "Stop telling me…") are the closest signal — Chase is direct, low-word-count, no padding when in real-time. Spec extrapolates this register from those corrections plus the locked long-form voice — but the calibration may be off.
+2. **Real-time chat / Slack register.** No captured Slack threads or live-chat samples. The agent-memory feedback corrections (e.g. "Stop telling me…") are the closest signal — Alex is direct, low-word-count, no padding when in real-time. Spec extrapolates this register from those corrections plus the locked long-form voice — but the calibration may be off.
 
 3. **Drip email body.** APA drip-email sequences aren't fully drafted in the brain yet. `APA/Skool_Launch_Plan.md` and `APA/Recurring_Session_Scripts.md` capture cadence and live-session framing but not drip body copy. The drip example in `voice/examples/drip-email.md` is constructed from Dispatch §1 voice + APA positioning, not a verbatim sample.
 
-4. **Deployed landing-hero rewrite SHA `ad9dc06`.** The bos-website rewrite referenced in the user prompt lives in a different repo (`bos-website`, not `whited-brain`). The audit does not include verbatim hero copy from that deployment. The landing-hero example uses the verified Skool launch headline+subheadline (which is in the brain) and notes that the bos-website hero would be the parallel BOS example if/when captured.
+4. **Deployed landing-hero rewrite SHA `ad9dc06`.** The bos-website rewrite referenced in the user prompt lives in a different repo (`bos-website`, not `your-brain`). The audit does not include verbatim hero copy from that deployment. The landing-hero example uses the verified Skool launch headline+subheadline (which is in the brain) and notes that the bos-website hero would be the parallel BWS example if/when captured.
 
-5. **Patrick "Last setup push" email (Gmail draft v3).** Referenced by the user prompt as the on-brand cold-email source. Not accessible from inside the brain repo (Gmail isn't in scope). The cold-email example reconstructs the intended structure from the Discovery_Call_Followup_Flow framing + Chase's correspondence patterns in `Patrick_Daily_Log.md` + the user prompt's described structure (greet → frame the ask → solo list → joint list → deferred items → close with single-action CTA).
+5. **Dana "Last setup push" email (Gmail draft v3).** Referenced by the user prompt as the on-brand cold-email source. Not accessible from inside the brain repo (Gmail isn't in scope). The cold-email example reconstructs the intended structure from the Discovery_Call_Followup_Flow framing + Alex's correspondence patterns in `Dana_Daily_Log.md` + the user prompt's described structure (greet → frame the ask → solo list → joint list → deferred items → close with single-action CTA).
 
 6. **Deal-close follow-up body.** Pattern exists at `project_discovery_call_followup_flow.md` (agent memory) and `Discovery_Call_Followup_Flow.md` (brain). Neither captures verbatim send-out copy. The deal-close example is constructed from the documented pattern, not a sent email.
 
@@ -191,9 +191,9 @@ Flagged so future spec readers know what's grounded vs what's been extrapolated.
 
 The spec at `voice/voice-spec.md` is grounded primarily in:
 
-1. **Voice rule meta-doc** — `Whited_Consulting_Content_Strategy.md` §1 (Chase's own meta-rules; canonical anchor)
+1. **Voice rule meta-doc** — `Whited_Consulting_Content_Strategy.md` §1 (Alex's own meta-rules; canonical anchor)
 2. **Long-form locked sample** — Dispatch Playbook §1–11 (the voice target for teaching content)
 3. **Compressed locked sample** — Skool Launch §6 (the voice target for sales copy)
 4. **Hard rules from agent memory** — `feedback_no_time_estimates.md`, `feedback_no_session_endings.md`, `feedback_client_copy_isolation.md`
 
-The spec explicitly does not invent rules outside these sources. Where a rule appears in the spec without a citation in this audit, treat it as extrapolation and flag for Chase review.
+The spec explicitly does not invent rules outside these sources. Where a rule appears in the spec without a citation in this audit, treat it as extrapolation and flag for Alex review.

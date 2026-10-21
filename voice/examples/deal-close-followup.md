@@ -36,7 +36,7 @@
 >
 > Thank you so much for taking the time to speak with me earlier this week. It was such a pleasure learning more about your business and the challenges you're facing in today's competitive home services market.
 >
-> Based on our conversation, I believe Buildout Studios could be a great fit for your organization. We specialize in helping forward-thinking contractors like yourself leverage cutting-edge technology to streamline operations, increase efficiency, and ultimately drive growth.
+> Based on our conversation, I believe Brightwork Studio could be a great fit for your organization. We specialize in helping forward-thinking contractors like yourself leverage cutting-edge technology to streamline operations, increase efficiency, and ultimately drive growth.
 >
 > Some of the key benefits our clients typically see include:
 > - Improved operational efficiency through automation
@@ -49,8 +49,8 @@
 > Looking forward to hearing from you!
 >
 > Best regards,
-> Chase Whited
-> Buildout Studios
+> Alex Morgan
+> Brightwork Studio
 
 ---
 
